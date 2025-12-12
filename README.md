@@ -1,3 +1,4 @@
+
 # Library Management System – Summary
 
 **A production-ready, full-stack library management application built with modern React practices, optimized for performance, UX, and scalability.**
@@ -136,7 +137,22 @@ npm run preview
 
 ---
 
+## AI Assistance
+
+This project leveraged AI assistance for:
+
+- **Code optimization suggestions** (performance, memoization, lazy loading)
+- **Documentation and README creation**
+- **UX and accessibility recommendations**
+- **Problem-solving and debugging tips**
+
+> AI was used as a helper for analysis and guidance, but all coding, architecture decisions, and final implementations were done manually by  me .
+- - -
+
 ## Developer Info
 
 - **Name:** Ahmed Galal
 - **Email:** a.galal.dev99@gmail.com
+
+---
+
