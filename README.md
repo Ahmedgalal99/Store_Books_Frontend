@@ -10,22 +10,22 @@
 
 ## Project Overview
 
-* Browse and manage **books, authors, and stores**
-* **Admin-only authentication** with token persistence
-* Full **CRUD operations** with inline editing
-* **Responsive, accessible (WCAG), and user-friendly**
-* Optimized with **lazy loading, memoization, and localStorage caching**
+- Browse and manage **books, authors, and stores**
+- **Admin-only authentication** with token persistence
+- Full **CRUD operations** with inline editing
+- **Responsive, accessible (WCAG), and user-friendly**
+- Optimized with **lazy loading, memoization, and localStorage caching**
 
 ---
 
 ## Tech Stack
 
-* **Frontend:** React 19, Vite
-* **Routing:** React Router v6 (lazy loaded)
-* **Styling:** Tailwind CSS
-* **Tables:** @tanstack/react-table
-* **State Management:** Context API + localStorage
-* **Mock Backend:** Custom server with full CRUD
+- **Frontend:** React 19, Vite
+- **Routing:** React Router v6 (lazy loaded)
+- **Styling:** Tailwind CSS
+- **Tables:** @tanstack/react-table
+- **State Management:** Context API + localStorage
+- **Mock Backend:** Custom server with full CRUD
 
 ---
 
@@ -33,16 +33,16 @@
 
 ### Public Features (Guest)
 
-* Browse books, authors, stores
-* Search, sort, and filter data
-* View store inventory
+- Browse books, authors, stores
+- Search, sort, and filter data
+- View store inventory
 
 ### Admin Features (Logged In)
 
-* Add / edit / delete authors, books, stores, inventory
-* Inline editing with keyboard shortcuts (Enter/Escape)
-* Confirmation dialogs & toast notifications
-* Form validation & accessibility enhancements
+- Add / edit / delete authors, books, stores, inventory
+- Inline editing with keyboard shortcuts (Enter/Escape)
+- Confirmation dialogs & toast notifications
+- Form validation & accessibility enhancements
 
 ---
 
@@ -51,33 +51,33 @@
 **Admin Credentials:**
 
 ```
-Email: admin@library.com  
+Email: admin@library.com
 Password: admin123
 ```
 
-* Token-based auth
-* Persistent sessions
-* Protected actions (add/edit/delete)
-* Guests can view but not modify
+- Token-based auth
+- Persistent sessions
+- Protected actions (add/edit/delete)
+- Guests can view but not modify
 
 ---
 
 ## Performance & UX
 
-* **Initial load:** 0.9s (↓64%)
-* **Bundle size:** 180KB (↓60%)
-* **Network requests:** 3 (↓75%)
-* **Re-renders:** 1-2 (↓70%)
-* Inline editing, confirmation dialogs, toast notifications
-* Responsive & accessible design (ARIA + keyboard navigation)
+- **Initial load:** 0.9s (↓64%)
+- **Bundle size:** 180KB (↓60%)
+- **Network requests:** 3 (↓75%)
+- **Re-renders:** 1-2 (↓70%)
+- Inline editing, confirmation dialogs, toast notifications
+- Responsive & accessible design (ARIA + keyboard navigation)
 
 **Optimizations:**
 
-* Lazy loading / code splitting
-* Memoization (useMemo, useCallback)
-* localStorage caching
-* Proper key usage in lists
-* Non-blocking notifications
+- Lazy loading / code splitting
+- Memoization (useMemo, useCallback)
+- localStorage caching
+- Proper key usage in lists
+- Non-blocking notifications
 
 ---
 
@@ -118,33 +118,25 @@ npm run preview
 
 ## Usage Examples
 
-* Add new author, book, or store
-* Inline edit book/author/store
-* Add books to store inventory
-* Delete with confirmation dialogs
-
----
-
-## Demo & Repository
-
-* **Live Demo:** [Insert your deployed URL here]
-* **GitHub Repository:** [Insert GitHub URL here]
+- Add new author, book, or store
+- Inline edit book/author/store
+- Add books to store inventory
+- Delete with confirmation dialogs
 
 ---
 
 ## Why This Project Stands Out
 
-* Production-ready, deployable code
-* Full CRUD with authentication & persistence
-* Performance optimized & responsive
-* Accessible (ARIA + WCAG)
-* Modern React 19 best practices (hooks, context, lazy loading)
-* Clean, maintainable, scalable architecture
+- Production-ready, deployable code
+- Full CRUD with authentication & persistence
+- Performance optimized & responsive
+- Accessible (ARIA + WCAG)
+- Modern React 19 best practices (hooks, context, lazy loading)
+- Clean, maintainable, scalable architecture
 
 ---
 
 ## Developer Info
 
-* **Name:** Ahmed Galal
-* **Email:** a.galal.dev99@gmail.com
-
+- **Name:** Ahmed Galal
+- **Email:** a.galal.dev99@gmail.com
